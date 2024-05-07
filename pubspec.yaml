@@ -1,0 +1,97 @@
+name: schedule_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  syncfusion_flutter_calendar: ^21.1.41
+  json_annotation: ^4.8.1
+  dropdown_search: ^5.0.6
+  intl: ^0.18.0
+  dio: ^5.4.2+1
+  mobx: ^2.2.1 
+  flutter_mobx: ^2.1.0+1
+  provider: ^6.1.2
+  http: ^0.13.6
+  sidebarx: ^0.17.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  mobx_codegen: ^2.4.0
+  json_serializable: ^6.6.0
+  flutter_localizations:
+    sdk: flutter
+  url_launcher: ^6.2.4
+  path_provider_foundation: ^2.3.2
+  desktop_window: 0.4.0
+  change_app_package_name:
+
+  #syncfusion_localizations: ^24.1.41
+  #syncfusion_flutter_datagrid_export: ^24.1.41
+  #syncfusion_flutter_calendar: ^24.1.41
+  #syncfusion_flutter_datepicker: ^24.1.41
+  #syncfusion_flutter_charts: ^24.1.41
+  #syncfusion_flutter_gauges: ^24.1.41
+  #syncfusion_flutter_sliders: ^24.1.41
+  #syncfusion_flutter_pdf: ^24.1.41
+  #syncfusion_flutter_barcodes: ^24.1.41
+  #syncfusion_officechart: ^24.1.41
+  #syncfusion_flutter_maps: ^24.1.41
+  #syncfusion_flutter_signaturepad: ^24.1.41
+  #syncfusion_flutter_pdfviewer: ^24.1.41
+  #syncfusion_flutter_treemap: ^24.1.41
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/pdf/
+    - assets/world_map.json
+    - assets/africa.json
+    - assets/europe.json
+    - assets/germany.json
+    - assets/india.json
+    - assets/usa.json
+    - assets/south_america.json
+    - assets/australia.json
+    - assets/maps_brazil_boundary.json
+    - assets/maps_uk_boundary.json
+    - assets/maps_france_boundary.json
+    - assets/river.json
+    - assets/london_to_british.json
+    - assets/london_to_chessington.json
+    - assets/london_to_hampton_court_palace.json
+    - assets/london_to_twickenham_stadium.json
+    - assets/london_to_windsor_castle.json
+    - assets/product_data.json
+    - assets/chart_data.json
+    - assets/images/
+  fonts:
+    - family: HeeboBold
+      fonts:
+        - asset: assets/fonts/Heebo-Bold.ttf
+    - family: HeeboMedium
+      fonts:
+        - asset: assets/fonts/Heebo-Medium.ttf
+    - family: Roboto-Bold
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+    - family: Roboto-Medium
+      fonts:
+        - asset: assets/fonts/Roboto-Medium.ttf
+    - family: Roboto-Regular
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf 
+
